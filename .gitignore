@@ -1,0 +1,59 @@
+# --- Unity 特有 ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# --- Unity ユーザー設定ファイル（個人ごとに異なるので共有不要） ---
+UserSettings/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# --- OSごとの不要ファイル ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Crash/Log ---
+sysinfo.txt
+
+# --- Unity Cloud Diagnostic ---
+.crashlytics/
+*.stacktrace
+
+# --- Rider IDE ---
+*.sublime-workspace
+*.sublime-project
+*.userprefs
+*.pidb
+*.booproj
+*.suo
+*.tmp
+*.user
+*.bak
+*.ncb
+*.swp
+*.unitypackage
+
+# --- VS Code ---
+.vscode/
+.history/
+
+# --- JetBrains Rider ---
+.idea/
+*.sln.iml
+
+# --- 実際にGitで管理するべきディレクトリ ---
+!Assets/
+!ProjectSettings/
+!Packages/
+!*.unity
+!*.mat
+!*.prefab
